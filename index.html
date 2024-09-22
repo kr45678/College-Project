@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?nature,environment');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+            position: relative;
+        }
+        .hero:after {
+            content: '';
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .hero h1 {
+            z-index: 1;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Three Columns Section */
+        .three-columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            flex-basis: 30%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .column h3 {
+            color: #4CAF50;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .three-columns {
+                flex-direction: column;
+                align-items: center;
+            }
+            .column {
+                flex-basis: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Sustainable Development
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#goals">Sustainable Goals</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Together for a Greener Tomorrow</h1>
+    </div>
+
+    <section id="about" class="container">
+        <h2>About Sustainable Development</h2>
+        <p>
+            Sustainable development is the organizing principle for meeting human development goals while at the same time sustaining the ability of natural systems to provide the natural resources and ecosystem services upon which the economy and society depend.
+        </p>
+    </section>
+
+    <section id="goals" class="container">
+        <h2>Our Sustainable Development Goals</h2>
+        <div class="three-columns">
+            <div class="column">
+                <h3>Goal 1: No Poverty</h3>
+                <p>End poverty in all its forms everywhere, and promote equality and access to essential services for all individuals.</p>
+            </div>
+            <div class="column">
+                <h3>Goal 7: Affordable and Clean Energy</h3>
+                <p>Ensure access to affordable, reliable, sustainable, and modern energy for all, driving towards a carbon-free future.</p>
+            </div>
+            <div class="column">
+                <h3>Goal 13: Climate Action</h3>
+                <p>Take urgent action to combat climate change and its impacts, enhancing resilience and sustainability in communities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>
+            Want to learn more or collaborate with us in our sustainable development initiatives? Reach out via email at <a href="mailto:info@sustainablefuture.com">info@sustainablefuture.com</a>.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2024 Sustainable Development. All rights reserved. <br>
+        <a href="https://www.un.org/sustainabledevelopment/">Learn More About the UN Sustainable Goals</a>
+    </footer>
+
+</body>
+</html>
